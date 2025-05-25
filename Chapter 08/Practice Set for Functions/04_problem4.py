@@ -1,10 +1,15 @@
 # Function max_of_two(a, b) that returns the bigger number.
 
-def max_of_two(a,b):
+def max_of_two(a, b):
+    if a == b:
+        return("Both Numbers are equal")
+    if a < 0 or b < 0:
+        return("Negative Numbers are not allowed")
     if a > b:
-        print(f"{a} is bigger than {b}")
+        return(f"{a} is bigger than {b}")
     if b > a:
-        print(f"{b} is bigger than {a}")
+        return(f"{b} is bigger than {a}")
 
-max_of_two(22,44)
-max_of_two(10,5)
+a = int(input("Enter number: "))
+b = int(input("Enter number: "))
+print(max_of_two(a, b))
