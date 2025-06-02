@@ -1,4 +1,3 @@
-# Chapter 3:
 # Write a program to check if a given number is even or odd using the modulus operator.
 
 def is_even(n):
@@ -12,7 +11,6 @@ n = int(input("Enter Number: "))
 is_even(n)
 
 
-# Chapter 4:
 # Write a program that asks the user for their age and prints whether they are a minor, adult, or senior citizen.
 
 def age(num):

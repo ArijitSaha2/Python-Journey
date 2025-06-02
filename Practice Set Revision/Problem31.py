@@ -1,4 +1,3 @@
-# Chapter 5 (Loops):
 # Write a program to print the first 10 natural numbers using a while loop.
 
 def natural():
@@ -10,7 +9,6 @@ def natural():
 natural()
 
 
-# Chapter 6 (Strings):
 # Write a program to check if a given string is a palindrome.
 
 def palindrom(word):
