@@ -8,5 +8,6 @@ A keyword is a reserved word in Python that has a predefined meaning and purpose
 """The input() function returns a string by default.
 To convert it to an integer, wrap it with int(), like this:
 
+
 num = int(input("Enter a number: "))
 """
